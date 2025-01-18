@@ -124,7 +124,17 @@
 
 .img-main{
     background-image: url(/images/Circle\ design.svg);
+    padding: 30px 33px 31px 2px;
     
+}
+
+/* partner style */
+
+.partner{
+  margin: 69px 165px 0 165px;
+  justify-content: space-around;
+  
+  
 }
     
 
