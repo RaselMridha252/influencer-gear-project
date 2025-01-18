@@ -153,17 +153,100 @@
 .popular-collection{
   display: grid;
   grid-template-columns:repeat(3, 1fr);
+  gap: 30px;
 }
 
 .card{
   box-shadow: 30px 30px 30px #f7eeee;
-  margin: 30px;
+  /* padding-left: 14px; */
+  
+  
 }
 
 .img-9{
-  padding: 17px 15px 16px 14px;
+  padding: 17px 15px 16px 0;
 }
-    
+
+.item-name{
+  font-size: 1.75rem;
+  
+  
+}
+
+.price{
+  font-size: 1.5rem;
+  
+  
+}
+
+.item-discreption{
+  font-size: 0.875rem;
+  color: #787885;
+  padding-bottom: 17px;
+}
+
+.see-more-btn{
+  text-align: end;
+  margin-top: 25px;
+  color: #E02C6D;
+  font-size: 1rem;
+  border: 0 solid;
+}
+
+/* featured style */
+
+.featured{
+  margin: 100px 165px 100px 165px;
+ 
+}
+
+.featured-products{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.capson{
+
+}
+
+.featured-products-header{
+  font-size: 2.375rem;
+}
+
+.featured-products-para {
+  font-size: 1rem;
+  color: #6C6C6C;
+}
+
+.join-now{
+  font-size: 1rem;
+  color:#FFFFFF ;
+  background-color: #E02C6D;
+  padding: 10px 40px 10px 40px;
+  margin-top: 16px;
+  border: 0 solid;
+}
+   
+/* footer style */
+
+footer{
+  background-color: rgb(19, 22, 29)
+}
+
+.footer-section{
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+.footer-header{
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+.footer-para{
+  color: #D9DBE1;
+  font-size: 0.875rem;
+}
 
 
   
