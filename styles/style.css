@@ -136,6 +136,33 @@
   
   
 }
+
+
+/* popular-collection style */
+
+.cards{
+  margin: 100px 197px 0 196px;
+}
+
+.popular-collection-title{
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.popular-collection{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+}
+
+.card{
+  box-shadow: 30px 30px 30px #f7eeee;
+  margin: 30px;
+}
+
+.img-9{
+  padding: 17px 15px 16px 14px;
+}
     
 
 
