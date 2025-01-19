@@ -250,24 +250,18 @@ footer{
 
 /* media quarry */
 
-@media screen and (max-width: 576px) {
-  .nav-bar,
-  .banner-heading,
-  .nav-link,
-  .pree-book-header, 
-  .partner, 
-  {
-    flex-direction: column;
-  }
-  .nav-item, .card, .featured-products, {
-    display: grid;
-    grid-template-columns: none;
-  }
+/* 
+*/
 
-  .img-9{
-    max-width: 330px;
-  }
+@media screen and (max-width: 567px) {
+  
 }
+  
+}
+  
+}
+
+
   
 
 
